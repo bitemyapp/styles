@@ -1,0 +1,55 @@
+// travis-ci.org
+
+body {
+    background-color: #222;
+}
+
+.wrapper.centered #top, .wrapper.centered .topbar, .wrapper.non-centered .topbar {
+    background-color: #333;
+}
+
+#top .cta {
+    border-color: #555;
+    background-color: #336;
+}
+
+.repo-menus .repo-menu-header {
+    border-color: #555;
+}
+
+.tile {
+    background-color: #555;
+}
+
+
+.tile--jobs a {
+    color: #EEE;
+}
+
+.tile-main h2, .tile-main small {
+    color: #EEE;
+}
+
+.repo-main-description:after {
+    background: none;
+}
+
+.repo-main-commit:after {
+    background: none;
+}
+
+.repo-main-info:after {
+    background: none;
+}
+
+.tile--jobs .job-lang:after {
+    background: none;
+}
+
+.tile--jobs .job-env:after {
+    background: none;
+}
+
+.tile--jobs .job-anchor:after {
+    background: none;
+}
