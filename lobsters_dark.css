@@ -31,3 +31,8 @@ div.details {
     background-color: #333;
     border-radius: 20px;
 }
+
+input, button, select, textarea {
+    color: #ccc !important;
+    background-color: #333 !important;
+}
