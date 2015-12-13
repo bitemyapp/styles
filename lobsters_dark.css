@@ -1,0 +1,33 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+ol.stories.list li.story div.details span.link a:link {
+	color: #6898ff;
+}
+
+ol.stories.list li.story div.details span.link a:visited {
+	color: #2858bf;
+}
+
+a {
+    color: #6898ff;
+}
+
+a.tag {
+	background-color: #000;
+	border: 1px solid #ccc;
+	color: #ccc;
+}
+
+body {
+    background: #000;
+    color: #ccc;
+}
+
+div.details {
+    background: #000;
+    color: #ccc;
+}
+
+.comment.highlighted {
+    background-color: #333;
+    border-radius: 20px;
+}
