@@ -1,7 +1,7 @@
 @-moz-document domain("haskell.org"), domain("haddock.stackage.org") {
 @namespace url(http://www.w3.org/1999/xhtml);
 body, .toc, .inline-code, #footer, #column-one, .catlinks, #content, #globalWrapper #content .source-haskell .st0,
-    .home-dynamic {
+    .home-dynamic { 
         background-color: #333;
         color: white;
     }
@@ -21,26 +21,26 @@ body, .toc, .inline-code, #footer, #column-one, .catlinks, #content, #globalWrap
         border-color:#101418;
     }
     #interface p.src .link { background:#111;}
-    .hs-identifier {
-        color: #DDD;
-    }
+	.hs-identifier {
+    	color: #DDD;
+	}
 
-    h1:target, h2:target, h3:target, h4:target, h5:target, h6:target, span:target {
-        background: #333;
-        box-shadow: none;
-        border: none;
-    }
+	h1:target, h2:target, h3:target, h4:target, h5:target, h6:target, span:target {
+    	background: #333;
+    	box-shadow: none;
+    	border: none;
+	}
 
-    #changelog h3, #ticketchange h3 {
-        /* border-bottom: 1px solid #d7d7d7; */
-        box-shadow: none;
-        padding: 0 .2em;
-        margin-bottom: .5em;
-        color: #999;
-        font-size: 100%;
-        font-weight: normal;
-        border: 1px solid white;
-    }
+	#changelog h3, #ticketchange h3 {
+    	/* border-bottom: 1px solid #d7d7d7; */
+    	box-shadow: none;
+  	  	padding: 0 .2em;
+   	 	margin-bottom: .5em;
+  	  	color: #999;
+    	font-size: 100%;
+    	font-weight: normal;
+    	border: 1px solid white;
+	}
 
 fieldset {
     border: 1px solid #d7d7d7;
@@ -78,5 +78,15 @@ div.code {
     margin: 1em 1.75em;
     padding: .25em;
     overflow: auto;
+}
+
+#trac-comment-editor textarea {
+    background: initial;
+}
+.ticketdraft {
+    background: initial;
+    border: 1px solid #d7d7d7;
+    border-radius: .4em;
+    padding: 0 .2em;
 }
 }
