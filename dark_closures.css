@@ -1,9 +1,7 @@
-// hackage.haskell.org
-
+@-moz-document domain("haskell.org"), domain("haddock.stackage.org") {
 @namespace url(http://www.w3.org/1999/xhtml);
-
 body, .toc, .inline-code, #footer, #column-one, .catlinks, #content, #globalWrapper #content .source-haskell .st0,
-    .home-dynamic { 
+    .home-dynamic {
         background-color: #333;
         color: white;
     }
@@ -23,17 +21,62 @@ body, .toc, .inline-code, #footer, #column-one, .catlinks, #content, #globalWrap
         border-color:#101418;
     }
     #interface p.src .link { background:#111;}
+    .hs-identifier {
+        color: #DDD;
+    }
 
-table.info {
-    background-color: #222;
-    color: #eee;
+    h1:target, h2:target, h3:target, h4:target, h5:target, h6:target, span:target {
+        background: #333;
+        box-shadow: none;
+        border: none;
+    }
+
+    #changelog h3, #ticketchange h3 {
+        /* border-bottom: 1px solid #d7d7d7; */
+        box-shadow: none;
+        padding: 0 .2em;
+        margin-bottom: .5em;
+        color: #999;
+        font-size: 100%;
+        font-weight: normal;
+        border: 1px solid white;
+    }
+
+fieldset {
+    border: 1px solid #d7d7d7;
+    border-radius: .4em;
+    margin: 1em 0;
+    background: #333;
+    box-shadow: none;
+    padding: 1em;
 }
-#table-of-contents {
-    background: #225252;
+
+input, textarea, keygen, select, button {
+    margin: 0em;
+    font: 13.3333px Arial;
+    text-rendering: auto;
+    color: #EEE;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    background-color: #333;
 }
-a[href]:link {
-    color: #0099ff;
+
+tt {
+    color: #EEE;
+    border: none;
+    background: #333;
 }
-#interface td.src .link {
-    background: none !important;
+div.code {
+    background: #202428 !important;
+    border: 1px solid #d7d7d7;
+    border-radius: .1em;
+    margin: 1em 1.75em;
+    padding: .25em;
+    overflow: auto;
+}
 }
