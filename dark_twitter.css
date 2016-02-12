@@ -7,6 +7,20 @@ a[data-nav=moments] {
     display: none !important;
 }
 
+html .web-reporting-flow {
+    background: inherit;
+}
+
+.PageContainer {
+    background: inherit;
+}
+
+html .ResponsiveLayout {
+    background: inherit;
+}
+.block-dialog .submit-section, .report-dialog .submit-section, .block-or-report-dialog .submit-section {
+    background-color: inherit;
+}
 }
 
 @-moz-document url-prefix("https://twitter.com/intent") {
