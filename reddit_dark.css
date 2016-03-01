@@ -1,6 +1,19 @@
 @-moz-document domain("reddit.com") {
 @namespace "http://www.w3.org/1999/xhtml";
 body {background:#272b30;color:#45494d;font-family: Verdana, Helvetica,Arial,Sans;}
+    .md {
+       color: #DDD !important;
+    }
+.new-comment .usertext-body {
+	background: #22223A !important;
+    border: none;
+    margin: -1px 0;
+    padding: 0 4px;
+}
+.usertext.border .usertext-body {
+	background: #22223A !important;
+    padding-left: 5px;
+}
     h1,h2,h3,h4,h5{font-family:Helvetica,Arial,Sans;}
     a{color:#70757b;}
     a:hover{color:#d4d7db!important;text-decoration: none!important;}    
