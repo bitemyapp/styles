@@ -14,6 +14,10 @@ body {background:#272b30;color:#45494d;font-family: Verdana, Helvetica,Arial,San
 	background: #22223A !important;
     padding-left: 5px;
 }
+
+.new-comment .md :not(pre)>code, .link .md :not(pre)>code, .usertext.border .md :not(pre)>code, .new-comment .md pre, .link .md pre, .usertext.border .md pre {
+    background-color: inherit;
+}
     h1,h2,h3,h4,h5{font-family:Helvetica,Arial,Sans;}
     a{color:#70757b;}
     a:hover{color:#d4d7db!important;text-decoration: none!important;}    

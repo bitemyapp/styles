@@ -1,8 +1,22 @@
 @-moz-document url("https://twitter.com/"), url("https://twitter.com/i/notifications"), url-prefix("https://twitter.com/mentions"), url-prefix("https://twitter.com/i/moments"), url-prefix("https://twitter.com/settings"), regexp("https://twitter.com/.*") {
 body{
     background-color: #101010 !important;
+    /*
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    -o-font-smoothing: antialiased !important;
+    */
+    /*
+    -webkit-font-smoothing: never !important;
+    -moz-font-smoothing: never !important;
+    -o-font-smoothing: never !important;
+    */
+    /* font-smooth: never !important; */
+    font-family: "Ubuntu", sans-serif;
   }
-
+.TweetTextSize {
+    font-size: 16px;
+}
 a[data-nav=moments] {
     display: none !important;
 }
@@ -20,6 +34,10 @@ html .ResponsiveLayout {
 }
 .block-dialog .submit-section, .report-dialog .submit-section, .block-or-report-dialog .submit-section {
     background-color: inherit;
+}
+
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart {
+    background: inherit;
 }
 }
 
