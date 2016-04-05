@@ -734,7 +734,7 @@ background-position: left top !important;
     background: #181818 !important;
     border-color: #484848 !important;
   }
-  .header, .headers, #readme .markdown-body, .social-count, .file, .box-body,
+  .header, .site-header, .headers, #readme .markdown-body, .social-count, .file, .box-body,
   .markdown-body table tr:nth-child(2n), .steps li,
   .explore-section:nth-child(2n), .markdown-format table, .list-group-item,
   .chromed-list-browser .none p, .chromed-list-browser .error p,
