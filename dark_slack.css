@@ -2857,4 +2857,6 @@ a.two_factor_choice:link:hover .two_factor_link { color: #e6e6e6 }
 #client_header .channel_header #channel_header_info { background: inherit }
 .channel_header_refresh #client_body:not(.onboarding):before { background: inherit; border: none; }
 #client_header .channel_header .channel_name_container .channel_name { color: inherit }
+#fs_modal #fs_modal_sidebar a { color: inherit; }
+#fs_modal h1, #fs_modal h2, #fs_modal h3, #fs_modal h4, #fs_modal h5 { color: inherit; }
 }
